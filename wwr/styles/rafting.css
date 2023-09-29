@@ -27,9 +27,12 @@ h1{
 nav a{
     text-decoration: none;
 }
-.hero {
+.hero div {
     margin: 10px auto;
     position: relative;
+}
+.hero div h1 {
+    position: absolute;
 }
 .hero img {
     display: block;
