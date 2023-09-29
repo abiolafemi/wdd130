@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&display=swap");
+
+:root{
+        --primary-color: #9DACFF;
+        --secondary-color: #AFFC41;
+        --accent1-color: #1DD3B0;
+        --accent2-color: #B2FF9E;
+
+        --heading-font: 'Roboto';
+        --paragraph-font: 'Mooli';
+
+        --nav-background-color: #9DACFF;
+        --nav-link-color: #AFFC41;
+        --nav-hover-link-color: #9DACFF;
+        --nav-hover-background-color: #1DD3B0;
+    }
+h1,h2 {
+    font-family: var(--heading-font);
+}
+h1{
+    color: var(--secondary-color);
+    position: absolute;
+}
+.article {
+    position: absolute;
+}
+nav a{
+    text-decoration: none;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
