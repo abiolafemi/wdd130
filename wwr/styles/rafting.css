@@ -78,3 +78,53 @@ h2, h3 {
 a {
     text-decoration: none;
 }
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header, img, nav {
+    background-color: #9BE564;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px
+}
+
+.adventure {
+    text-align: center;
+}
+
+.adventure img {
+    width: 150%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #9BE564;
+    padding: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
