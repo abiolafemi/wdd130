@@ -186,6 +186,17 @@ fieldset {
     padding: 1rem;
 }
 
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+label {
+    text-align: right;
+    
+}
+
 button {
     margin: 1rem;
     background-color: var(--primary-color);
