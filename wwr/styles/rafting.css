@@ -61,7 +61,6 @@ h2, h3 {
    
 }
 
-
 .hero h1 {
     position: absolute;
     top: 10px;
@@ -127,4 +126,80 @@ figcaption {
 .social-icons img {
     width: 30px;
     margin-left: 10px;
+}
+
+address {
+    font-family: var(--paragragh-font);
+    font-size: 1.rem;
+    padding: 10px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.1rem;
+    background-color: #4056F4;
+    display: grid;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.employee-profiles img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-profiles p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.employee-profiles div {
+
+}
+
+legend {
+    color: black;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #C2F970;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+main {
+    background-color: azure;
 }
