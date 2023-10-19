@@ -18,7 +18,7 @@
 }
 
 header, main, footer {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -84,6 +84,10 @@ a {
     align-items: center;
 }
 
+.header img{
+    border-radius: 50%;
+    
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -94,10 +98,25 @@ header, img, nav {
     background-color: #9BE564;
 }
 
+.a{
+    text-align: center;
+}
+
 .adventures {
     display: flex;
     justify-content: space-around;
-    padding: 10px
+    padding: 10px;
+    
+}
+.hero article{
+    top:30%;
+    height:36%;
+}
+
+.hero h1{
+    text-align: center;
+    width: 95%;
+    
 }
 
 .adventure {
@@ -107,6 +126,7 @@ header, img, nav {
 .adventure img {
     width: 150%;
     height: auto;
+    max-width: 600px;
 }
 
 figcaption {
@@ -170,10 +190,6 @@ legend {
     text-align: center;
 }
 
-.employee-profiles div {
-
-}
-
 legend {
     color: black;
 }
@@ -213,4 +229,75 @@ button:hover {
 
 main {
     background-color: azure;
+}
+
+.cta-section {
+    padding: 20px;
+}
+
+.trip-image img {
+    width: 600px;
+    height: 300px;
+}
+
+.trip-info {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color:#4056F4;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.newsletter {
+    background-color: #fffaff;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #555;
 }
