@@ -434,7 +434,6 @@ td {
     text-decoration: none;
     color: #70e000;
     font-weight: bold;
-    transition: var(--primary-color) 0.3s;
 }
 
 .call-to-action a:hover {
