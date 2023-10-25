@@ -50,7 +50,7 @@ h2, h3 {
 }
 
 .header nav a {
-    color: white;
+    color: black;
     margin: 0 15px;
 }
 
@@ -64,7 +64,7 @@ nav {
 }
 
 header, img, nav {
-    background-color: var(--secondary-color);
+    background-color: #C2F970;
 
 }
 
@@ -126,6 +126,10 @@ header, img, nav {
 }
 
 /* address on contact page */
+.contact-us h1 {
+    color: black;
+    background-color: lightblue;
+}
 address {
     font-family: var(--paragragh-font);
     font-size: 1rem;
@@ -205,7 +209,7 @@ figcaption {
 
 /* Styles for footer */
 footer {
-    background-color: #4361ee;
+    background-color: #C2F970;
     padding: 10px;
 }
 
@@ -304,7 +308,6 @@ main {
 }
 
 .cta-section a {
-    color: #70e000;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -357,7 +360,7 @@ table {
 }
 
 th {
-    background-color:#4056F4;
+    background-color: lightblue;
     padding: 12px;
     text-align: left;
     border-bottom: 2px solid #ccc;
@@ -430,9 +433,9 @@ td {
 }
 
 .call-to-action a {
-    font-size: 1.2em;
+    font-size: 20px;
     text-decoration: none;
-    color: #70e000;
+    color: white;
     font-weight: bold;
 }
 
@@ -440,10 +443,28 @@ td {
     color: aqua;
 }
 
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
 /* Styles for grid-layout section */
 .grid-layout {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    
 }
 
 .grid-items {
